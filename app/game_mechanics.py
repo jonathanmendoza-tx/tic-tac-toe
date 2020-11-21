@@ -3,7 +3,7 @@ import joblib
 import copy
 from sklearn.ensemble import RandomForestClassifier
 
-model = joblib.load("./tictactoemaster.joblib")
+model = joblib.load("./model/tictactoemaster.joblib")
 
 board_columns = ['tl_x', 'tl_o', 'tm_x', 'tm_o', 'tr_x', 'tr_o', 'ml_x', 'ml_o', 
 				'mm_x','mm_o', 'mr_x', 'mr_o', 'nl_x', 'nl_o', 'bm_x', 'bm_o', 
